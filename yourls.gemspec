@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.name = 'yourls'
   s.version = File.read(File.dirname(__FILE__) + '/VERSION').strip
   s.authors = ['Justin Rhinesmith']
-  s.email = 'jrhinesmith@threestage.com'
+  s.email = 'jerhinesmith@gmail.com.com'
   s.summary = 'Use the Yourls API to shorten or expand URLs'
   s.description = 'Use the Yourls API to shorten or expand URLs'
-  
+
   s.files = ["yourls.gemspec", "lib/yourls.rb", "lib/yourls/yourls.rb", "lib/yourls/client.rb", "lib/yourls/url.rb", "README.markdown", "MIT-LICENSE"]
   s.require_paths = ["lib"]
 
